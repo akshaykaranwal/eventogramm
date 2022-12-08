@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+body {
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    background: linear-gradient(to left,#6c63ff,rgb(212, 198, 246));
+  }
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+.masthead {
+  padding: 6em 0;
+  background: #BDBDBD;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 5px 20px 50px #000;
+  border-radius: 15px;
+}
+.block{
+  background-color: whitesmoke;
+  width: 800px;
+  margin-left: 400px;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-top: 30px;
+  font-family: 'Kanit', sans-serif;
+  box-shadow: 5px 20px 50px #000;
+  font-size: 20px;
+}
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+.masthead-heading {
+    color: #424242;
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+.introduction-section > p,
+.location-section > p,
+.questions-section,
+.content-footer > p {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+.questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 2em 0 1em 0;
+}
+section > h1 {
+    margin-top: 2em;
+}
+
+.masterhead{
+    font-style:italic;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+.masthead {
+  padding: 6em 0;
+  background-image: url('https://cdn.wallpaperhub.app/cloudcache/b/b/1/c/e/b/bb1ceb3826aadaa36d9f4020d4c0888c262a5567.jpg');
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 230px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  border-top: solid 1em linear-gradient(to bottom right, #66CCFF, #CCFFCC);
+}
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+    color:rgb(35, 9, 101);
+}
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 5em;
+  color:#260256;
+  letter-spacing: -0.02em;
+  line-height:1.5em;
+  text-transform: uppercase;
+}
+.introduction > p,
+.location > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+.content-footer {
+  margin: 50px 0;
+  padding: 20px 0;
+  text-align: center;
+  text-decoration: none;
+  background: #B0BEC5;
+}
+.social > li {
+  display: inline-block;
+  margin: 0 5px;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .content-footer {
+        padding: 2em 2.5em;
+  }
+}
+.fa {  
+    padding: 10px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+    border-radius:50%;
+}
+
+  .fa-github {  
+    background: #232628;  
+    color: white;  
+  }  
+  
+  .fa-instagram {  
+    background: #9b9b27; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+      }
+ 
+  .fa-google {  
+    background: #dd4b39;  
+    color: white;  
+  }  
+  
+  .fa:hover {  
+      opacity: 0.9;  
+  }  
+  .cu{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50%;
+  }
