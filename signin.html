@@ -14,7 +14,7 @@
     
     <div class="form">
         <span class="form__title">Sign up</span>
-        <form action="/">
+        <form action="/signin" method="post">
             <div class="form__input">
                 <i class="ri-user-line"></i>
                 <input type="text" name="Name" placeholder="Name">
@@ -27,14 +27,10 @@
             </div>
             <div class="form__input">
                 <i class="ri-lock-line"></i>
-                <input type="text" name="password" placeholder="Password">
+                <input type="text" name="Password" placeholder="Password">
                 <span class="bar"></span>
             </div>
-            <div class="form__input">
-                <i class="ri-lock-line"></i>
-                <input type="text" name="confirm-password" placeholder="Confirm password">
-                <span class="bar"></span>
-            </div>
+            
             <button type="submit" class="form__button">Sign up</button>
             <span class="form__switch">
                 Already have an account? <a href="login">Login</a>
