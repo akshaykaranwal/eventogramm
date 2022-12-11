@@ -7,11 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms 01</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    
+
 </head>
 
 <body>
-    
+    <div id="nav-placeholder">
+
+    </div>
+        
+        
     <div class="form">
         <span class="form__title">Sign up</span>
         <form action="/signin" method="post">
@@ -37,7 +44,11 @@
             </span>
         </form>
     </div>
-    
+    <script>
+         $(function(){
+      $("#nav-placeholder").load("header.html");
+    });
+    </script>
         
         
 </body>

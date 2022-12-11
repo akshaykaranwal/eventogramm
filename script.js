@@ -2,6 +2,7 @@ const express = require('express')
 const bp = require("body-parser");
 const mongoose = require('mongoose');
 const app = express();
+mongoose.set('strictQuery', true);
 
 app.set('engine','ejs');
 app.use(express.static("public"))
@@ -39,6 +40,13 @@ app.get("/about",function(req,res){
 
 app.get("/hackathons",function(req,res){
     res.sendFile(__dirname + "/index3.html");
+
+   
+});
+app.get("/hackathons/read",function(req,res){
+    res.sendFile(__dirname + "/read.html");
+
+   
 });
 
 app.post("/login",function(req,res){

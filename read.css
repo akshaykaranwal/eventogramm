@@ -1,0 +1,73 @@
+#name{
+    text-align: center;
+    margin-top: 23px;
+    font-family: 'Rubik Gemstones', cursive;
+    /* background-color: #dbd6f6; */
+}
+#bb img{
+    display: flex;
+    padding: 23px 34px;
+    border-radius: 34px;
+    /* background-color: blueviolet; */
+    align-items: center;
+    justify-content: center;
+    width: 556px;
+}
+#bb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #dbd6f6; */
+}
+#side button{
+    margin: 23px 34px;
+    padding: 12px ;
+    background-color: #6247fc;
+    /* font-weight: bolder; */
+    font-size: 23px;
+    font-family: 'Secular One', sans-serif;
+    border-radius: 23px;
+    cursor: pointer;
+    color: white;
+}
+#side button:hover{
+    background-color: rgb(25, 9, 150);
+}
+.ciPluQ {
+    position: relative;
+    margin: 0px;
+    padding: 8px 6px 12px 16px;
+    list-style-type: none;
+    font-weight: bold;
+    background-color: #ece9fb;
+    border-radius: 13px;
+    margin-top: -107px;
+    margin-left: -397px;
+    margin-right: 34px;
+    /* height: -153px; */
+}
+.h2{
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 23px;
+}
+.h4{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    font-family: 'Secular One', sans-serif;
+    background-color: rgba(252, 252, 251, 0.884);
+    display: flex;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: -5px 7px 4px black;
+    
+   
+}
+.para{
+    border-radius: 123px;
+    padding-left:250px;
+    padding-right: 300px;
+    padding-top: 10px;
+    margin-top: 36px;
+}

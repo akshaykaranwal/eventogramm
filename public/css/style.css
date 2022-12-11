@@ -30,6 +30,7 @@ body {
   box-shadow: 0 1px 1rem rgba(0, 0, 0, .1);
   isolation: isolate;
   box-shadow: 5px 20px 50px #000;
+  margin-top: 70px;
 }
 
 .form::before {
